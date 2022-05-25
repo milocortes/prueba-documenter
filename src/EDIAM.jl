@@ -1,4 +1,4 @@
-module Example
+module EDIAM
 
 greet() = print("Hello World!")
 
