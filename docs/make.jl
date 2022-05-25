@@ -6,10 +6,12 @@ makedocs(
     format = Documenter.HTML(prettyurls = false),
     pages = Any[
          "EDIAM ajustado a macro-regiones" => "index.md",
-         "Datos" => Any[
+         "Modelo" => Any[
+            "modelo/ediam.md"
+          ],        
+          "Datos" => Any[
            "datos/cmip_data.md"
          ]
-    
 ])
 
 # Documenter can also automatically deploy documentation to gh-pages.
