@@ -18,6 +18,13 @@ Sin embargo, existen propuestas en las que sugieren la necesidad de considerar p
 
 # Datos
 
+```@contents
+Pages = [
+    "datos/cmip_data.md"
+    ]
+Depth = 2
+```
+
 # Experimentos
 Here's some inline maths: ``\sqrt[n]{1 + x + x^2 + \ldots}``.
 
