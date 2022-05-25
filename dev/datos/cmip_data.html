@@ -1,2 +1,173 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Ordinary Differential Equations · EDIAM</title><script data-outdated-warner src="../assets/warner.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/juliamono/0.044/juliamono.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.11/katex.min.css" rel="stylesheet" type="text/css"/><script>documenterBaseURL=".."</script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" data-main="../assets/documenter.js"></script><script src="../siteinfo.js"></script><script src="../../versions.js"></script><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../assets/themes/documenter-dark.css" data-theme-name="documenter-dark" data-theme-primary-dark/><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../assets/themes/documenter-light.css" data-theme-name="documenter-light" data-theme-primary/><script src="../assets/themeswap.js"></script></head><body><div id="documenter"><nav class="docs-sidebar"><div class="docs-package-name"><span class="docs-autofit"><a href="../index.html">EDIAM</a></span></div><form class="docs-search" action="../search.html"><input class="docs-search-query" id="documenter-search-query" name="q" type="text" placeholder="Search docs"/></form><ul class="docs-menu"><li><a class="tocitem" href="../index.html">EDIAM ajustado a macro-regiones</a></li><li><span class="tocitem">Datos</span><ul><li class="is-active"><a class="tocitem" href="cmip_data.html">Ordinary Differential Equations</a><ul class="internal"><li><a class="tocitem" href="#Example-1-:-Solving-Scalar-Equations"><span>Example 1 : Solving Scalar Equations</span></a></li></ul></li></ul></li></ul><div class="docs-version-selector field has-addons"><div class="control"><span class="docs-label button is-static is-size-7">Version</span></div><div class="docs-selector control is-expanded"><div class="select is-fullwidth is-size-7"><select id="documenter-version-selector"></select></div></div></div></nav><div class="docs-main"><header class="docs-navbar"><nav class="breadcrumb"><ul class="is-hidden-mobile"><li><a class="is-disabled">Datos</a></li><li class="is-active"><a href="cmip_data.html">Ordinary Differential Equations</a></li></ul><ul class="is-hidden-tablet"><li class="is-active"><a href="cmip_data.html">Ordinary Differential Equations</a></li></ul></nav><div class="docs-right"><a class="docs-edit-link" href="https://github.com/milocortes/prueba-documenter/blob/master/docs/src/datos/cmip_data.md" title="Edit on GitHub"><span class="docs-icon fab"></span><span class="docs-label is-hidden-touch">Edit on GitHub</span></a><a class="docs-settings-button fas fa-cog" id="documenter-settings-button" href="#" title="Settings"></a><a class="docs-sidebar-button fa fa-bars is-hidden-desktop" id="documenter-sidebar-button" href="#"></a></div></header><article class="content" id="documenter-page"><h1 id="cmip_data"><a class="docs-heading-anchor" href="#cmip_data">Ordinary Differential Equations</a><a id="cmip_data-1"></a><a class="docs-heading-anchor-permalink" href="#cmip_data" title="Permalink"></a></h1><p>This tutorial will introduce you to the functionality for solving ODEs. Other introductions can be found by <a href="https://github.com/JuliaDiffEq/SciMLTutorials.jl">checking out SciMLTutorials.jl</a>. Additionally, a <a href="https://youtu.be/KPEqYtEd-zY">video tutorial</a> walks through this material.</p><h2 id="Example-1-:-Solving-Scalar-Equations"><a class="docs-heading-anchor" href="#Example-1-:-Solving-Scalar-Equations">Example 1 : Solving Scalar Equations</a><a id="Example-1-:-Solving-Scalar-Equations-1"></a><a class="docs-heading-anchor-permalink" href="#Example-1-:-Solving-Scalar-Equations" title="Permalink"></a></h2><p>In this example we will solve the equation</p><p class="math-container">\[\frac{du}{dt} = f(u,p,t)\]</p></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../index.html">« EDIAM ajustado a macro-regiones</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.18 on <span class="colophon-date" title="Wednesday 25 May 2022 18:36">Wednesday 25 May 2022</span>. Using Julia version 1.7.2.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>CMIP6 · EDIAM</title><script data-outdated-warner src="../assets/warner.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/juliamono/0.044/juliamono.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.11/katex.min.css" rel="stylesheet" type="text/css"/><script>documenterBaseURL=".."</script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" data-main="../assets/documenter.js"></script><script src="../siteinfo.js"></script><script src="../../versions.js"></script><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../assets/themes/documenter-dark.css" data-theme-name="documenter-dark" data-theme-primary-dark/><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../assets/themes/documenter-light.css" data-theme-name="documenter-light" data-theme-primary/><script src="../assets/themeswap.js"></script></head><body><div id="documenter"><nav class="docs-sidebar"><div class="docs-package-name"><span class="docs-autofit"><a href="../index.html">EDIAM</a></span></div><form class="docs-search" action="../search.html"><input class="docs-search-query" id="documenter-search-query" name="q" type="text" placeholder="Search docs"/></form><ul class="docs-menu"><li><a class="tocitem" href="../index.html">EDIAM ajustado a macro-regiones</a></li><li><span class="tocitem">Modelo</span><ul><li><a class="tocitem" href="../modelo/ediam.html">EDIAM</a></li></ul></li><li><span class="tocitem">Datos</span><ul><li class="is-active"><a class="tocitem" href="cmip_data.html">CMIP6</a><ul class="internal"><li><a class="tocitem" href="#Introducción"><span>Introducción</span></a></li><li><a class="tocitem" href="#Búsqueda-y-descarga-de-datos"><span>Búsqueda y descarga de datos</span></a></li></ul></li></ul></li></ul><div class="docs-version-selector field has-addons"><div class="control"><span class="docs-label button is-static is-size-7">Version</span></div><div class="docs-selector control is-expanded"><div class="select is-fullwidth is-size-7"><select id="documenter-version-selector"></select></div></div></div></nav><div class="docs-main"><header class="docs-navbar"><nav class="breadcrumb"><ul class="is-hidden-mobile"><li><a class="is-disabled">Datos</a></li><li class="is-active"><a href="cmip_data.html">CMIP6</a></li></ul><ul class="is-hidden-tablet"><li class="is-active"><a href="cmip_data.html">CMIP6</a></li></ul></nav><div class="docs-right"><a class="docs-edit-link" href="https://github.com/milocortes/prueba-documenter/blob/master/docs/src/datos/cmip_data.md" title="Edit on GitHub"><span class="docs-icon fab"></span><span class="docs-label is-hidden-touch">Edit on GitHub</span></a><a class="docs-settings-button fas fa-cog" id="documenter-settings-button" href="#" title="Settings"></a><a class="docs-sidebar-button fa fa-bars is-hidden-desktop" id="documenter-sidebar-button" href="#"></a></div></header><article class="content" id="documenter-page"><h1 id="cmip_data"><a class="docs-heading-anchor" href="#cmip_data">CMIP6</a><a id="cmip_data-1"></a><a class="docs-heading-anchor-permalink" href="#cmip_data" title="Permalink"></a></h1><h2 id="Introducción"><a class="docs-heading-anchor" href="#Introducción">Introducción</a><a id="Introducción-1"></a><a class="docs-heading-anchor-permalink" href="#Introducción" title="Permalink"></a></h2><p>Para el cálculo de parámetros climáticos, necesitamos los siguientes datos climáticos para las tres macro-regiones:</p><ul><li>Total atmospheric mass of co2 (co2mass)</li><li>Mole fraction of co2 (co2)</li><li>Near surface air temperature (tas)</li></ul><p>Estos datos se encuentran disponibles por el <a href="https://esgf.llnl.gov/">Earth System Grid Federation (ESGF)</a>, la cual es una red federada de centros de datos académicos y gubernamentales en EUA, Europa y Asia. La organización es la fuente principal de acceso a datos clímatos del <a href="https://www.wcrp-climate.org/wgcm-cmip">Coupled Model Intercomparison Project (CMIP)</a>, el cual es un proyecto que proporciona proyecciones climáticas permitiendo la intercomparación de modelos acomplados. Los modelos acomplados son aquellos que modelan la atmósfera y el océano de forma integrada para el entender el sistema clíma en su conjunto. </p><p>El CMIP conjunta los resultados de distintos grupos de modelación, los cuales son producto de diferentes experimentos numéricos. La comparación de los resultados de los modelos no tiene certeza sobre si las diferencias de resultados son producto de diferencias en los modelos o a su configuración (diseño experimental).  El CMIP se diseñó como un medio para armonizar los experimentos de los grupos de modelación para saber si los modelos están configurados de la misma forma. Esto permite identificar los procesos particulares a los modelos para comprender qué está causando las diferencias.</p><p>De forma periódica (aproximadamente 5 o 6 años) CMIP acuerda un conjunto de experimentos con la comunidad internacional para ser establecidos y ejecutados por los centros de modelación. El más reciente acuerdo es el de <a href="https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6">CMIP6</a>. Los resultados de estos experimentos son analizados posteriormente en la evaluación climática del Grupo Intergubernamental de Expertos sobre el Cambio Climático o Panel Intergubernamental del Cambio Climático <a href="https://archive.ipcc.ch/home_languages_main_spanish.shtml">(IPCC)</a> para su sexto reporte. </p><h2 id="Búsqueda-y-descarga-de-datos"><a class="docs-heading-anchor" href="#Búsqueda-y-descarga-de-datos">Búsqueda y descarga de datos</a><a id="Búsqueda-y-descarga-de-datos-1"></a><a class="docs-heading-anchor-permalink" href="#Búsqueda-y-descarga-de-datos" title="Permalink"></a></h2><p>El ESGF es una red de nodos, entre los cuales se encuentra el Lawrence-Livermore National Laboratory, German Climate Computing Centre (DKRZ por sus siglas en alemán), el Pierre Simon Laplace Institute (IPSL), entre otros. </p><p>Al ser un repositio distribuido, los datos no se encuentran centralizados de manera que es necesario realizar una búsqueda en la red de ESGF. El ESGF proporiona el paquete <a href="https://github.com/ESGF/esgf-pyclient"><code>esgf-pyclient</code></a> de python que permite el acceso a la <a href="https://esgf.github.io/esgf-user-support/user_guide.html#the-esgf-search-restful-api">API</a> de búsqueda de ESGF.  En el siguiente <a href="https://claut.gitlab.io/man_ccia/lab2.html">link</a> se presenta un tutorial de cómo utilizar este paquete.  </p><p>Dado que el análisis se realizó a nivel de macro-regiones, necesitamos una granularidad más fina de los datos. Por tal motivo, para la búsqueda de los datos fue imprecindible contar con los datos que proporcionaran los raster que tuvieran cobertura para las tres macroregiones.  Fueron dos los modelos que fue posible detectar y descargar dichos datos:</p><ul><li><a href="https://www.cesm.ucar.edu/models/waccm-x/">CESM2-WACCM</a></li><li><a href="https://www.gfdl.noaa.gov/earth-system-esm4/">GFDL-ESM4</a>  </li></ul><p>El siguiente programa utiliza la biblioteca <code>esgf-pyclient</code> para la búsqueda de los datos:</p><pre><code class="language-python hljs">from pyesgf.search import SearchConnection
+from tqdm import tqdm
+import pandas as pd
+
+df_result_total = pd.DataFrame()
+
+
+gcm_models = [&#39;BCC-CSM2-MR&#39;,&#39;BCC-EM1&#39;,&#39;CanESM5&#39;,&#39;CESM2&#39;,&#39;CESM2-WACCM&#39;,&#39;CNRM-CM6-1&#39;,&#39;CNRM-ESM2-1&#39;,&#39;EC-EARTH3-Veg&#39;,&#39;GFDL-ESM4&#39;,&#39;GFDL-CM4&#39;,&#39;IPSL-CM6A-LR&#39;,&#39;MRI-ESM2-0&#39;,&#39;NorESM2-LM&#39;,&#39;SAM0-UNICON&#39;,&#39;UKESM1-0-LL&#39;]
+
+cmip_url = [&quot;https://esgf-node.llnl.gov/esg-search&quot;,
+        &quot;https://esgf-node.ipsl.upmc.fr/esg-search&quot;,
+        &quot;https://esgf-data.dkrz.de/esg-search&quot;,
+        &quot;https://esgf-index1.ceda.ac.uk/esg-search&quot;]
+
+rcps = [&#39;historical&#39;,&#39;ssp126&#39;,&#39;ssp245&#39;,&#39;ssp370&#39;,&#39;ssp585&#39;]
+
+climate_variables = [&#39;co2mass&#39;,&#39;co2&#39;,&#39;tas&#39;]
+
+for url_node in cmip_url:
+    print(&quot;############################################################3&quot;)
+    print(&quot;Búsqueda en la liga {}&quot;.format(url_node))
+    conn = SearchConnection(url_node, distrib=True)
+    print(&quot;############################################################3&quot;)
+
+    for model in tqdm(gcm_models):
+        for rcp in rcps:
+            for clim_var in climate_variables:
+                ctx = conn.new_context(
+                    project=&#39;CMIP6&#39;,
+                    frequency=&#39;mon&#39;,
+                    source_id=model,
+                    experiment_id=rcp,
+                    variant_label=&#39;r1i1p1f1&#39;,
+                    variable=clim_var)
+
+                if ctx.hit_count &gt; 0:
+
+                    df_result_parcial = pd.DataFrame().from_dict({&quot;climate_model&quot; : [model],
+                                                                    &quot;rcp&quot; : [rcp],
+                                                                    &quot;climate_variable&quot;:[clim_var]})
+                    print(&quot;Nodo: {}\nModelo: {}\nRCP: {}\nVariable climática: {}&quot;.format(url_node,model,rcp,clim_var))
+                    for i in tqdm(range(len(ctx.search()))):
+                        try:
+                            result = ctx.search()[i]
+                            files = result.file_context().search()
+
+                            for file in files:
+                                #print(&quot;Nodo: {}\nModelo: {}\nRCP: {}\nVariable climática: {}\nURL: {}&quot;.format(url_node,model,rcp,clim_var,file.opendap_url))
+                                #df_result_parcial[&quot;url&quot;] = [file.opendap_url]
+                                df_result_parcial[&quot;url&quot;] = [file.download_url]
+                                df_result_total = pd.concat([df_result_total,df_result_parcial])
+                        except Exception as e:
+                            print(&quot;Hubo un error&quot;)
+
+df_result_total.to_csv(&#39;variant_label_r1i1p1f1.csv&#39;)
+
+# Hacemos un subset de los modelos que cumplen con todos los datos necesarios
+final_models = [&#39;CESM2-WACCM&#39;,&#39;NorESM2-LM&#39;,&#39;GFDL-ESM4&#39;]
+
+df_final_models = df_result_total[df_result_total[&quot;climate_model&quot;].isin(final_models)]
+
+# Generamos una columna de fechas
+df_final_models[&quot;date&quot;] = pd.to_datetime(df_final_models[&quot;url&quot;].apply(lambda x: x.split(&quot;/&quot;)[-2][1:]), format=&#39;%Y%m%d&#39;)
+# Generamos una columna de nodo
+df_final_models[&quot;nodo&quot;] = df_final_models[&quot;url&quot;].apply(lambda x: x.split(&quot;/&quot;)[2])
+
+# Generamos una columna de la perioricidad del dato
+df_final_models[&quot;temporalidad&quot;] = df_final_models[&quot;url&quot;].apply(lambda x: x.split(&quot;/&quot;)[-1].split(&quot;_&quot;)[1])
+
+# Nos quedamos con las últimas versiones de cada variable, rcp y modelo
+final_models_last_date = []
+
+for model in final_models:
+    for nodo in set(df_final_models[&quot;nodo&quot;] ):
+        for rcp in rcps:
+            for cv in climate_variables:
+                parcial_final_models = df_final_models.query(&quot;climate_model == &#39;{}&#39; and nodo ==&#39;{}&#39; and climate_variable==&#39;{}&#39; and rcp == &#39;{}&#39; and temporalidad==&#39;Amon&#39;&quot;.format(model,nodo,cv,rcp))
+
+                urls = set(list(parcial_final_models[parcial_final_models[&quot;date&quot;]== parcial_final_models[&quot;date&quot;].min()][&quot;url&quot;]))
+
+                for url in urls:
+                    final_models_last_date.append({&#39;climate_model&#39; : model,
+                                                   &#39;nodo&#39; : nodo,
+                                                   &#39;rcp&#39; : rcp,
+                                                   &#39;climate_variable&#39; : cv,
+                                                   &#39;url&#39; : url})
+
+df_final_models_last_date = pd.DataFrame(final_models_last_date)
+
+for model in final_models:
+    for nodo in set(df_final_models_last_date[&quot;nodo&quot;]):
+        for cv in climate_variables:
+            consulta = &quot;climate_model==&#39;{}&#39; and nodo==&#39;{}&#39; and climate_variable==&#39;{}&#39;&quot;.format(model,nodo,cv)
+            if set(df_final_models_last_date.query(consulta)[&quot;rcp&quot;]):
+                if len(set(df_final_models_last_date.query(consulta)[&quot;rcp&quot;]))==5:
+                    print(&quot;%------------------------------------------------------%&quot;)
+                    print(consulta)
+                    print(set(df_final_models_last_date.query(consulta)[&quot;rcp&quot;]))
+                    print(df_final_models_last_date.query(consulta).shape)
+
+
+&#39;&#39;&#39;
+    Usaremos los siguientes nodos para los modelos:
+        * CESM2-WACCM ----&gt; esgf-data.ucar.edu
+        * NorESM2-LM  ----&gt; noresg.nird.sigma2.no
+        * GFDL-ESM4   ----&gt; esgdata.gfdl.noaa.gov
+&#39;&#39;&#39;
+
+def get_url_final_models(model,nodo):
+    parcial = df_final_models_last_date.query(&quot;climate_model==&#39;{}&#39; and nodo ==&#39;{}&#39;&quot;.format(model,nodo))
+
+    for rcp in rcps:
+        f = open(&quot;{}_{}.txt&quot;.format(model,rcp),&quot;x&quot;)
+        for url in parcial.query(&quot;rcp==&#39;{}&#39;&quot;.format(rcp))[&quot;url&quot;]:
+            f.write(&quot;{}\n&quot;.format(url))
+
+        f.close()
+
+get_url_final_models(&quot;CESM2-WACCM&quot;,&quot;esgf-data.ucar.edu&quot;)
+get_url_final_models(&quot;NorESM2-LM&quot;,&quot;noresg.nird.sigma2.no&quot;)
+get_url_final_models(&quot;GFDL-ESM4&quot;,&quot;esgdata.gfdl.noaa.gov&quot;)</code></pre><p>Una vez que se buscaron las ligas de descarga de los datos, utilizamos el siguiente programa para descargarlos:</p><pre><code class="language-shellscript hljs">#!/usr/bin/env bash
+filename=&#39;gcm-models.txt&#39;
+
+# Declaramos un arreglo de los rcps
+declare -a rcps=(&quot;historical&quot; &quot;ssp126&quot; &quot;ssp245&quot; &quot;ssp370&quot; &quot;ssp585&quot;)
+
+# Declaramos un arreglo de las variables climáticas
+declare -a climvariables=(&quot;co2mass&quot; &quot;co2&quot; &quot;tas&quot;)
+
+# Creamos los directorios necesarios
+echo &quot;CREAMOS LOS DIRECTORIOS NECESARIOS&quot;
+while read model; do
+
+  if [ -d &quot;$model&quot; ]; then
+    rm -rf &quot;$model&quot;
+  fi
+
+  mkdir &quot;$model&quot;
+  cd &quot;$model&quot;
+  for rcp in ${rcps[@]}; do
+
+    mkdir &quot;$rcp&quot;
+    cd &quot;$rcp&quot;
+    for climvar in ${climvariables[@]}; do
+      mkdir &quot;$climvar&quot;
+    done
+    cd ..
+  done
+  cd ..
+
+done &lt; $filename
+
+while read model; do
+
+  for rcp in ${rcps[@]}; do
+    model_download=$model&quot;_&quot;$rcp&quot;.txt&quot;
+
+    if [ -f &quot;$model_download&quot; ]; then
+    echo &quot;$model_download exists.&quot;
+    wget -i $model_download
+    echo &quot;***********************************&quot;
+    echo &quot;MOVEMOS LOS NCDF AL DIRECTORIO&quot;
+    echo &quot;./$model/$rcp/&quot;
+    echo &quot;***********************************&quot;
+
+    mv *.nc &quot;./$model/$rcp/&quot;
+
+    fi
+
+  done
+
+done &lt; $filename</code></pre></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../modelo/ediam.html">« EDIAM</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.18 on <span class="colophon-date" title="Wednesday 25 May 2022 21:37">Wednesday 25 May 2022</span>. Using Julia version 1.7.3.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
